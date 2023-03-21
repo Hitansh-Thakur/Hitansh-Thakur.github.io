@@ -168,7 +168,7 @@ section + section {
 
 /*-------------------------Images into the slides ----------------------------*/
 :root{
-  --slide-ovelay-color:#bfbcbc;
+  --slide-ovelay-color:#313131;
 }
 
 .slide:first-child {
@@ -219,7 +219,7 @@ section + section {
   transition-delay: 2s;
   cursor: pointer;
   text-transform: uppercase;
-
+  color:#B3B3B3; 
   
 }
 
