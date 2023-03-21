@@ -1,0 +1,77 @@
+body{
+    color: black;
+}
+main{
+    max-width: 80%;
+    margin-inline: auto; 
+}
+
+#AboutUs{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    margin-bottom: 2.5rem;
+
+}
+
+.about-title{
+    font-size: 2.5rem;
+    margin-block: .75rem;
+}
+
+.about-title::before{
+    content: '';
+    background-color: rgb(255, 93, 35);
+    height: 5px;
+    width: 30%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-radius: 5rem;
+}
+
+.about-img{
+    
+    width: 100%;
+    height: 35rem;
+    background: url('./images/about-img.png') center center/cover;
+}
+
+#img-section{
+    flex: 2;
+}
+
+#content{
+    flex: 3;
+    width: 100%;
+}
+#content > p{
+    margin-block: 1rem;
+}
+
+.about-quote{
+    font-size: 2rem;
+    max-width: 30rem;
+    padding-inline: .75rem;
+    line-height: 1.2;
+    color: #202D52;
+}
+
+.about-quote::before{
+    content: '';
+    background-color: rgb(255, 93, 35);
+    height: 7.5rem;
+    width: 4px;
+    position: absolute;
+    top: .5rem;
+    bottom: 0;
+    left: 0;
+    border-radius: 5rem;
+    
+}
+footer > *{
+    color: white;
+}
+
+
+
