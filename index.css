@@ -85,7 +85,7 @@ section + section {
   margin-block: 1.5rem;
   font-size: var(--fs-800);
   display: block;
-  color: #202D52 !important;
+/*   color: #202D52 !important; */
   font-family: 'source sans pro';
 }
 
